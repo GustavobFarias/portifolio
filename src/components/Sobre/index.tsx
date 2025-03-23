@@ -11,7 +11,7 @@ function Sobre() {
               <h1 className="dizOla">Olá, eu sou o</h1>
               <span className="nome">Gustavo Farias</span>
               <p className="front">Desenvolvedor Front-end</p>
-              <S.Button>Download CV</S.Button>
+              <S.Button as="a" href='/curriculo.pdf' download>Download CV</S.Button>
             </S.Title>
             <S.Logo>
               <a

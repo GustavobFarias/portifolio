@@ -21,6 +21,36 @@ export const GlobalCss = createGlobalStyle`
     background-color: ${colors.corPrincipal};
   }
 
+  body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: ${colors.corSecundaria};
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 10px;
+}
+
   .container {
     max-width: 1500px;
     width: 100%;
